@@ -13,6 +13,10 @@ can_handle_multiple_separators_test() ->
     ?assertEqual("1 2 3 4 5", second:solution("1 2  3   4    5")).
 
 
+can_handle_empty_string_test() ->
+    ?assertEqual("", second:solution("")).
+
+
 can_handle_long_strings_test() ->
     {ok, [OriginalString]} = file:consult(code:lib_dir(second, test) ++ "/priv/long_string_original.terms"),
     {ok, [ExpectedString]} = file:consult(code:lib_dir(second, test) ++ "/priv/long_string_sorted.terms"),
