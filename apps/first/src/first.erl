@@ -17,7 +17,7 @@ solution(_Num) ->
     throw(badarg).
 
 
-%% Externals
+%% Internals
 
 
 -spec solution_loop(CurrentNum :: non_neg_integer(), Acc :: non_neg_integer()) ->

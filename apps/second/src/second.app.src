@@ -1,0 +1,10 @@
+{application, second, [
+    {description, "Second assignment"},
+    {vsn, "0.1.0"},
+    {applications, [
+        kernel,
+        stdlib
+    ]},
+    {env, []},
+    {modules, []}
+]}.
