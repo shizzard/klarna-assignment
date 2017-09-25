@@ -12,7 +12,7 @@ Original problem:
 
 ### Solution
 
-See [`third.erl`](apps/third/src/third.erl) in application `third`.
+See [`third.erl`](src/third.erl) in application `third`.
 
 Obvious idea is to use stack here.
 
